@@ -1,0 +1,50 @@
+Internationalization (i18n)
+---
+  is the process of designing and preparing your project for use in different locales around the world. 
+
+  * separating content for translation 
+  * updating app to support bidirection text (both LTR and RTL)
+  
+
+  en 
+  es 
+  fr 
+  ta 
+  ru 
+  de 
+
+--
+Localization (l10n)
+--
+  is the process of building versions of your project for different locales. 
+
+  
+  US
+  UK
+  CA 
+  IN 
+  AU 
+
+The above has to be done without changing app's code 
+Steps:
+--
+  First, refer the video in this file: https://angular.io/guide/i18n-overview 
+  Then start implemeneting it 
+
+  Step 1: 
+    install dependencies (use @angular/localize library)
+    ng add @angular/localize 
+
+  Step 2: 
+    internationalize the app 
+
+  Step 3: 
+    localize the app 
+
+
+some examples you may have seen 
+http://example.com?lang=en-US 
+http://example.com?lang=en-UK 
+http://example.com?lang=en-CA
+http://example.com?lang=en-IN
+http://example.com?lang=en-AU
