@@ -12,6 +12,7 @@
       </trans-unit>
       <trans-unit id="3587601090838362752" datatype="html">
         <source>Thanks for checking this out</source>
+        <target>Merci d'avoir vérifié cela</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">3</context>
